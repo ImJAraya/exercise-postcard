@@ -1,0 +1,50 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 450px;
+	height: 250px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	font-family: "Permanent Marker";
+	font-weight: 300;
+	width: 380px;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+.postcard-body p {
+	font-family: "Shadows Into Light";
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 100;
+}
+.body-right input {
+	border: none;
+	border-bottom: 2px solid gray;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	background-color: gray;
+	padding: 1%;
+}
